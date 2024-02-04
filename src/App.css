@@ -1,0 +1,58 @@
+/* Center the content and add margin to the top */
+.App {
+  text-align: center;
+  margin-top: 50px;
+}
+
+/* Add margin to the bottom of the form */
+form {
+  margin-bottom: 20px;
+}
+
+/* Style the text input */
+input[type='text'] {
+  padding: 10px;
+  width: 300px;
+  margin-right: 10px;
+  border: 1px solid #ccc; /* Light gray border */
+  border-radius: 5px;
+}
+
+/* Style the submit button */
+button {
+  padding: 10px 20px;
+  background-color: #333; /* Dark gray background */
+  color: white;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease; /* Add transition for smooth hover effect */
+  border-radius: 5px;
+}
+
+/* Change button background color on hover */
+button:hover {
+  background-color: #555; /* Slightly darker gray on hover */
+}
+
+/* Style the response container */
+.response {
+  margin-top: 20px;
+  padding: 20px; /* Increased padding for better readability */
+  background-color: rgb(34, 34, 34); /* Dark background */
+  color: rgb(215, 84, 84); /* White text */
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); /* Soft shadow */
+  animation: fadeIn 0.5s ease; /* Add fade-in animation */
+}
+
+/* Keyframes for fade-in animation */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
